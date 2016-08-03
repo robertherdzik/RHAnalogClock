@@ -8,3 +8,6 @@
 ## Usage
 
 TBC
+
+
+<img src ="./GitHubAssets/clock.gif" width="360" height="640"/>
