@@ -9,5 +9,6 @@
 
 TBC
 
-
-<img src ="./GitHubAssets/clock.gif" width="360" height="640"/>
+<p align="center">
+<img src ="./GitHubAssets/clock.gif" width="300" height="300"/>
+</p>
