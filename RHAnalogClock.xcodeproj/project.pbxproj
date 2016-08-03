@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1DCC6E21D5255AB0099D6E1 /* RHClockAnalogView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DCC6DD1D5255AB0099D6E1 /* RHClockAnalogView.m */; };
+		B1DCC6E31D5255AB0099D6E1 /* RHClockHand.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DCC6DF1D5255AB0099D6E1 /* RHClockHand.m */; };
+		B1DCC6E41D5255AB0099D6E1 /* RHClockViewBaseMechanism.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DCC6E11D5255AB0099D6E1 /* RHClockViewBaseMechanism.m */; };
+		E1C9A2551AA1D1B200D2D42F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9A2541AA1D1B200D2D42F /* main.m */; };
+		E1C9A2581AA1D1B200D2D42F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9A2571AA1D1B200D2D42F /* AppDelegate.m */; };
+		E1C9A25B1AA1D1B200D2D42F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9A25A1AA1D1B200D2D42F /* ViewController.m */; };
+		E1C9A25E1AA1D1B200D2D42F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C9A25C1AA1D1B200D2D42F /* Main.storyboard */; };
+		E1C9A2601AA1D1B200D2D42F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C9A25F1AA1D1B200D2D42F /* Images.xcassets */; };
+		E1C9A2631AA1D1B200D2D42F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C9A2611AA1D1B200D2D42F /* LaunchScreen.xib */; };
+		E1C9A26F1AA1D1B300D2D42F /* RHAnalogClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9A26E1AA1D1B300D2D42F /* RHAnalogClockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1C9A2691AA1D1B300D2D42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C9A2471AA1D1B200D2D42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C9A24E1AA1D1B200D2D42F;
+			remoteInfo = RHAnalogClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1DCC6DC1D5255AB0099D6E1 /* RHClockAnalogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHClockAnalogView.h; sourceTree = "<group>"; };
+		B1DCC6DD1D5255AB0099D6E1 /* RHClockAnalogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHClockAnalogView.m; sourceTree = "<group>"; };
+		B1DCC6DE1D5255AB0099D6E1 /* RHClockHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHClockHand.h; sourceTree = "<group>"; };
+		B1DCC6DF1D5255AB0099D6E1 /* RHClockHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHClockHand.m; sourceTree = "<group>"; };
+		B1DCC6E01D5255AB0099D6E1 /* RHClockViewBaseMechanism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHClockViewBaseMechanism.h; sourceTree = "<group>"; };
+		B1DCC6E11D5255AB0099D6E1 /* RHClockViewBaseMechanism.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHClockViewBaseMechanism.m; sourceTree = "<group>"; };
+		E1C9A24F1AA1D1B200D2D42F /* RHAnalogClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHAnalogClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C9A2531AA1D1B200D2D42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C9A2541AA1D1B200D2D42F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1C9A2561AA1D1B200D2D42F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1C9A2571AA1D1B200D2D42F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1C9A2591AA1D1B200D2D42F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1C9A25A1AA1D1B200D2D42F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1C9A25D1AA1D1B200D2D42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1C9A25F1AA1D1B200D2D42F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1C9A2621AA1D1B200D2D42F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E1C9A2681AA1D1B300D2D42F /* RHAnalogClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHAnalogClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C9A26D1AA1D1B300D2D42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C9A26E1AA1D1B300D2D42F /* RHAnalogClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHAnalogClockTests.m; sourceTree = "<group>"; };
+		E1C9A27E1AA1F56500D2D42F /* Globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C9A24C1AA1D1B200D2D42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C9A2651AA1D1B300D2D42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1DCC6DB1D5255AB0099D6E1 /* RHAnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				B1DCC6DC1D5255AB0099D6E1 /* RHClockAnalogView.h */,
+				B1DCC6DD1D5255AB0099D6E1 /* RHClockAnalogView.m */,
+				B1DCC6DE1D5255AB0099D6E1 /* RHClockHand.h */,
+				B1DCC6DF1D5255AB0099D6E1 /* RHClockHand.m */,
+				B1DCC6E01D5255AB0099D6E1 /* RHClockViewBaseMechanism.h */,
+				B1DCC6E11D5255AB0099D6E1 /* RHClockViewBaseMechanism.m */,
+			);
+			path = RHAnalogClock;
+			sourceTree = "<group>";
+		};
+		E1C9A2461AA1D1B200D2D42F = {
+			isa = PBXGroup;
+			children = (
+				E1C9A2511AA1D1B200D2D42F /* RHAnalogClock */,
+				E1C9A26B1AA1D1B300D2D42F /* RHAnalogClockTests */,
+				E1C9A2501AA1D1B200D2D42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C9A2501AA1D1B200D2D42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9A24F1AA1D1B200D2D42F /* RHAnalogClock.app */,
+				E1C9A2681AA1D1B300D2D42F /* RHAnalogClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C9A2511AA1D1B200D2D42F /* RHAnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				B1DCC6DB1D5255AB0099D6E1 /* RHAnalogClock */,
+				E1C9A2561AA1D1B200D2D42F /* AppDelegate.h */,
+				E1C9A2571AA1D1B200D2D42F /* AppDelegate.m */,
+				E1C9A2591AA1D1B200D2D42F /* ViewController.h */,
+				E1C9A25A1AA1D1B200D2D42F /* ViewController.m */,
+				E1C9A25C1AA1D1B200D2D42F /* Main.storyboard */,
+				E1C9A25F1AA1D1B200D2D42F /* Images.xcassets */,
+				E1C9A2611AA1D1B200D2D42F /* LaunchScreen.xib */,
+				E1C9A2521AA1D1B200D2D42F /* Supporting Files */,
+				E1C9A27E1AA1F56500D2D42F /* Globals.h */,
+			);
+			path = RHAnalogClock;
+			sourceTree = "<group>";
+		};
+		E1C9A2521AA1D1B200D2D42F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9A2531AA1D1B200D2D42F /* Info.plist */,
+				E1C9A2541AA1D1B200D2D42F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1C9A26B1AA1D1B300D2D42F /* RHAnalogClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9A26E1AA1D1B300D2D42F /* RHAnalogClockTests.m */,
+				E1C9A26C1AA1D1B300D2D42F /* Supporting Files */,
+			);
+			path = RHAnalogClockTests;
+			sourceTree = "<group>";
+		};
+		E1C9A26C1AA1D1B300D2D42F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9A26D1AA1D1B300D2D42F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C9A24E1AA1D1B200D2D42F /* RHAnalogClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C9A2721AA1D1B300D2D42F /* Build configuration list for PBXNativeTarget "RHAnalogClock" */;
+			buildPhases = (
+				E1C9A24B1AA1D1B200D2D42F /* Sources */,
+				E1C9A24C1AA1D1B200D2D42F /* Frameworks */,
+				E1C9A24D1AA1D1B200D2D42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHAnalogClock;
+			productName = RHAnalogClock;
+			productReference = E1C9A24F1AA1D1B200D2D42F /* RHAnalogClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1C9A2671AA1D1B300D2D42F /* RHAnalogClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C9A2751AA1D1B300D2D42F /* Build configuration list for PBXNativeTarget "RHAnalogClockTests" */;
+			buildPhases = (
+				E1C9A2641AA1D1B300D2D42F /* Sources */,
+				E1C9A2651AA1D1B300D2D42F /* Frameworks */,
+				E1C9A2661AA1D1B300D2D42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C9A26A1AA1D1B300D2D42F /* PBXTargetDependency */,
+			);
+			name = RHAnalogClockTests;
+			productName = RHAnalogClockTests;
+			productReference = E1C9A2681AA1D1B300D2D42F /* RHAnalogClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C9A2471AA1D1B200D2D42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Ro;
+				TargetAttributes = {
+					E1C9A24E1AA1D1B200D2D42F = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = E98QD397NK;
+					};
+					E1C9A2671AA1D1B300D2D42F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E1C9A24E1AA1D1B200D2D42F;
+					};
+				};
+			};
+			buildConfigurationList = E1C9A24A1AA1D1B200D2D42F /* Build configuration list for PBXProject "RHAnalogClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1C9A2461AA1D1B200D2D42F;
+			productRefGroup = E1C9A2501AA1D1B200D2D42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C9A24E1AA1D1B200D2D42F /* RHAnalogClock */,
+				E1C9A2671AA1D1B300D2D42F /* RHAnalogClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C9A24D1AA1D1B200D2D42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C9A25E1AA1D1B200D2D42F /* Main.storyboard in Resources */,
+				E1C9A2631AA1D1B200D2D42F /* LaunchScreen.xib in Resources */,
+				E1C9A2601AA1D1B200D2D42F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C9A2661AA1D1B300D2D42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C9A24B1AA1D1B200D2D42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C9A25B1AA1D1B200D2D42F /* ViewController.m in Sources */,
+				B1DCC6E31D5255AB0099D6E1 /* RHClockHand.m in Sources */,
+				B1DCC6E41D5255AB0099D6E1 /* RHClockViewBaseMechanism.m in Sources */,
+				B1DCC6E21D5255AB0099D6E1 /* RHClockAnalogView.m in Sources */,
+				E1C9A2581AA1D1B200D2D42F /* AppDelegate.m in Sources */,
+				E1C9A2551AA1D1B200D2D42F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C9A2641AA1D1B300D2D42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C9A26F1AA1D1B300D2D42F /* RHAnalogClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1C9A26A1AA1D1B300D2D42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C9A24E1AA1D1B200D2D42F /* RHAnalogClock */;
+			targetProxy = E1C9A2691AA1D1B300D2D42F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1C9A25C1AA1D1B200D2D42F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C9A25D1AA1D1B200D2D42F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1C9A2611AA1D1B200D2D42F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C9A2621AA1D1B200D2D42F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1C9A2701AA1D1B300D2D42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1C9A2711AA1D1B300D2D42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C9A2731AA1D1B300D2D42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RHAnalogClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1C9A2741AA1D1B300D2D42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RHAnalogClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1C9A2761AA1D1B300D2D42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RHAnalogClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHAnalogClock.app/RHAnalogClock";
+			};
+			name = Debug;
+		};
+		E1C9A2771AA1D1B300D2D42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RHAnalogClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHAnalogClock.app/RHAnalogClock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C9A24A1AA1D1B200D2D42F /* Build configuration list for PBXProject "RHAnalogClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C9A2701AA1D1B300D2D42F /* Debug */,
+				E1C9A2711AA1D1B300D2D42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C9A2721AA1D1B300D2D42F /* Build configuration list for PBXNativeTarget "RHAnalogClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C9A2731AA1D1B300D2D42F /* Debug */,
+				E1C9A2741AA1D1B300D2D42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C9A2751AA1D1B300D2D42F /* Build configuration list for PBXNativeTarget "RHAnalogClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C9A2761AA1D1B300D2D42F /* Debug */,
+				E1C9A2771AA1D1B300D2D42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C9A2471AA1D1B200D2D42F /* Project object */;
+}
